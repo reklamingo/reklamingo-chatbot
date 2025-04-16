@@ -30,4 +30,3 @@ export default async function handler(req, res) {
     res.status(500).json({ error: "Bir hata oluştu.", details: err.message });
   }
 }
-api/gpt.js eklendi
